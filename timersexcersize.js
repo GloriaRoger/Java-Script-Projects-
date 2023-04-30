@@ -1,4 +1,4 @@
-
+//Coundown function 
 function countDown(num) {
     let timer = setInterval(function() {
         num--;
