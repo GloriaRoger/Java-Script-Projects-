@@ -1,4 +1,4 @@
-//Coundown function 
+//Timers Question 1
 function countDown(num) {
     let timer = setInterval(function() {
         num--;
@@ -12,7 +12,7 @@ function countDown(num) {
     } , 1000)
 }
 
-
+//Timers Question 2
 function randomGame() {
     let num;
     let counter = 0;
