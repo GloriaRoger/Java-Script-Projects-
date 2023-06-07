@@ -22,7 +22,7 @@ newLi.innerText = "four"
 //10. Append the li to the ul element.
 const unordered = document.querySelector('ul');
 unordered.appendChild(newLi);
-//1. Loop over all of the lis inside the ol tag and give them a background color of “green”.
+//11. Loop over all of the lis inside the ol tag and give them a background color of “green”.
 let liInsideOl = document.querySelectorAll('ol li');
 for (let i = 0; i < liInsideOl.length; i++) {
     liInsideOl[i].getElementsByClassName.backgroundColor= 'green';
