@@ -30,3 +30,4 @@ for (let i = 0; i < liInsideOl.length; i++) {
 //12. Remove the div witha class of footer. 
 const footer = document.getElementsByClassName('footer');
 footer.remove();
+//
