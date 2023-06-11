@@ -1,2 +1,2 @@
 # Java-Script-Projects-
-Exercises for courses taken at USF Bootcamp. 
+Exercises for Bootcamp courses taken at USF. 
