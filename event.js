@@ -9,11 +9,11 @@ btn.onclick = function() {
     makeBody('teal');
 }; 
 const h1 = document.querySelector('h1');
-btn.onclick = function() {
-    h1.style.color = 'cyan';
-};
+// btn.onclick = function() {
+//     h1.style.color = 'cyan';
+// };
 
-//USE eventListener over inLine and setting events manually because they don't allow mfor multiple events to the same element whereas eventLister does
+//USE eventListener over inLine and setting events manually because they don't allow for multiple events to the same element whereas eventLister does
 //adding event listener to an id. using variable violetbtn we are able to call the built in JS function addEventListener to hold ("event,  function () { make body ('color');)
 const voiletBtn = document.querySelector('#violet');
 
