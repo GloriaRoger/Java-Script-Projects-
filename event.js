@@ -5,9 +5,7 @@ function makeBody(color) {
 
 //Creating a variable that then can call a funtion by using var.onsomeaction = to the function to makeBody('color')
 const btn = document.querySelector('#teal');
-btn.onclick = function() {
-    makeBody('teal');
-}; 
+
 const h1 = document.querySelector('h1');
 // btn.onclick = function() {
 //     h1.style.color = 'cyan';
@@ -23,4 +21,8 @@ voiletBtn.addEventListener('click', function() {
 
 voiletBtn.addEventListener('click', function() {
     h1.style.color = 'cyan';
+});
+
+btn.addEventListener('click', function() {
+    makeBody('teal');
 });
